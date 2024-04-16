@@ -1,0 +1,598 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+}
+.fondoUno { 
+    background-image: url("../assets/img/viajes.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.headerClass {
+    background-color: rgba(223, 161, 86, 0.475);
+    gap: .3125rem;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    list-style: none;   
+}
+.headerClass li a:hover{
+    color: rgba(255, 0, 0, 0.63);
+    text-decoration: underline;
+}
+.headerClass li a{
+    color: black;
+    text-decoration: none;
+    padding:  .3125rem .625rem ;
+    border: .125rem solid rgb(0, 0, 0);
+    border-radius: .3125rem;
+    list-style: none;
+    margin: .625rem ;
+    display: block;
+}
+.h1Class{
+    font-size: 2.8125rem;
+    display: flex;
+    justify-content: center;
+    padding-left: .625rem;
+    text-shadow: .3125rem .5rem .75rem rgba(0, 0, 0, 0.564);
+}
+.h2Class{
+    display: flex;
+    justify-content: center;
+    padding-left: .625rem;
+    text-shadow: .3125rem .5rem .75rem rgba(0, 0, 0, 0.612);
+}
+.h3Inicio{
+    margin-left: .625rem;
+    text-shadow: .3125rem .5rem .75rem black;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.logote {
+    opacity:0.3;
+    border-radius: 50%;
+    margin: .9375rem;
+    box-shadow: .3125rem .5rem .75rem black;
+}
+.h3Index{
+    font-size: 1.5625rem;
+    background-color: rgba(223, 161, 86, 0.505);
+    gap: 2.5rem;  
+}
+.imgIndex1{
+    width: 17.5rem;
+    height: 12.5rem;
+    margin: .625rem;
+    border-radius: .625rem;
+    box-shadow: .3125rem .5rem .75rem black;
+}
+.imgIndex2{
+    width: 17.5rem;
+    height: 12.5rem;
+    margin: .625rem;
+    border-radius: .625rem;
+    box-shadow: .3125rem .5rem .75rem black;
+}
+.imgIndex3{
+    width: 17.5rem;
+    height: 12.5rem;
+    margin: .625rem;
+    border-radius: .625rem;
+    box-shadow: .3125rem .5rem .75rem black;
+}
+.imgIndex4{
+    width: 17.5rem;
+    height: 12.5rem;
+    margin: .625rem;
+    border-radius: .625rem;
+    box-shadow: .3125rem .5rem .75rem black;
+}
+.footerImg { 
+    gap: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 1.5625rem;
+    box-shadow: .3125rem .5rem .75rem black;
+    list-style: none;
+}
+.mainClass{
+    background-color: rgba(247, 245, 243, 0.598);
+}
+.h1Destinos{ 
+    background-color:rgba(223, 161, 86, 0.475);
+    font-size: 2.8125rem;  
+    padding-left: .625rem;
+    text-shadow: .3125rem .5rem .75rem rgba(0, 0, 0, 0.651);
+}
+.h2Destinos{ 
+    margin:.625rem;
+    padding-left: 1.25rem;
+    text-shadow: .3125rem .5rem .75rem rgba(0, 0, 0, 0.651);
+}
+.articlDest1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: .625rem;
+}
+.imgDestinos1{
+    width: 17.5rem;
+    height: 12.5rem;
+    margin: .625rem;
+    border-radius: .625rem;
+    box-shadow: .3125rem .5rem .75rem black;
+}
+.misioDestinoh3{ 
+    margin:.625rem ;
+    padding-top: .625rem;
+    text-shadow: .3125rem .5rem .75rem black;
+}
+.pDestinos1{ 
+    width: 31.25rem;
+    height: 12.5rem;
+    margin: .625rem;
+    padding-top: 1.875rem;
+    padding-bottom: .9375rem;
+    text-shadow: .3125rem .5rem .75rem black;
+}
+.articlDest2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: .625rem;
+}
+.imgDestinos2 {
+    width: 17.5rem;
+    height: 12.5rem;
+    margin: .625rem;
+    border-radius: .625rem;
+    box-shadow: .3125rem .5rem .75rem black;
+}
+.esteroDestinoh3{ 
+    margin:.625rem ;
+    padding-top: .625rem;
+    text-shadow: .3125rem .5rem .75rem black;
+}
+.pDestinos2{ 
+    width: 31.25rem;
+    height: 12.5rem;
+    margin: .625rem;
+    padding-top: 1.875rem;
+    padding-bottom: .9375rem;
+    text-shadow: .3125rem .5rem .75rem black;
+}
+.articlDest3{
+    display: flex;
+    flex-wrap: wrap;
+    margin: .625rem;
+}
+.imgDestinos3 {
+    width: 17.5rem;
+    height: 12.5rem;
+    margin: .625rem;
+    border-radius: .625rem;
+    box-shadow: .3125rem .5rem .75rem black;
+}
+.glaciarDestinoh3{ 
+    margin:.625rem ;
+    padding-top: .625rem;
+    text-shadow: .3125rem .5rem .75rem black;
+}
+.pDestinos3{ 
+    width: 31.25rem;
+    height: 12.5rem;
+    margin: .625rem;
+    padding-top: 1.875rem;
+    padding-bottom: .9375rem;
+    text-shadow: .3125rem .5rem .75rem black;
+}
+.articlDest4{
+    display: flex;
+    flex-wrap: wrap;
+    margin: .625rem;
+}
+.imgDestinos4 {
+    width: 17.5rem;
+    height: 12.5rem;
+    margin: .625rem;
+    border-radius: .625rem;
+    box-shadow: .3125rem .5rem .75rem black;
+}
+.puertoDestinoh3{ 
+    margin:.625rem ;
+    padding-top: .625rem;
+    text-shadow: .3125rem .5rem .75rem black;
+}
+.pDestinos4{ 
+    width: 31.25rem;
+    height: 15.625rem;
+    margin: .625rem;
+    padding-top: 1.875rem;
+    padding-bottom: .9375rem;
+    text-shadow: .3125rem .5rem .75rem black;
+}
+.fondoDos { 
+    background-color: rgba(223, 161, 86, 0.475);
+    background-image: url("../assets/img/cataratas.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.fondoTres{
+    background-color: rgba(203, 188, 168, 0.888);
+    background-image: url("../assets/img/iberá.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.h1Hospedajes{
+    background-color: rgba(223, 161, 86, 0.475);
+    font-size: 2.8125rem;
+    padding-left: .625rem;
+    text-shadow: .3125rem .5rem .75rem rgba(0, 0, 0, 0.562);
+}
+.h2Hosp{
+    text-shadow: .3125rem .5rem .75rem rgba(0, 0, 0, 0.562);
+}
+.pHosp{
+    text-shadow: .3125rem .5rem .75rem black;
+    margin: .625rem;
+}
+.sectionArtimg {
+    background-color: rgba(247, 245, 243, 0.598);
+    padding-left: 1.25rem;
+}
+.img1{width: 300px;
+    height: 200px;
+    border-radius: .3125rem;
+}
+.img2{
+    width: 300px;
+    height: 200px;
+    border-radius: .3125rem;
+}
+.img3{
+    width: 300px;
+    height: 200px;
+    border-radius: .3125rem;
+}
+.img4{
+    width: 300px;
+    height: 200px;
+    border-radius: .3125rem;
+}
+.img5{
+    width: 300px;
+    height: 200px;
+    border-radius: .3125rem;
+}
+.img6{
+    width: 300px;
+    height: 200px;
+    border-radius: .3125rem;
+}
+.img7{
+    width: 300px;
+    height: 200px;
+    border-radius: .3125rem;
+}
+.img8{
+    width: 300px;
+    height: 200px;
+    border-radius: .3125rem;
+}
+.img9{
+    width: 300px;
+    height: 200px;
+    border-radius: .3125rem;
+}
+.img10{
+    width: 300px;
+    height: 200px;
+    border-radius: .3125rem;
+}
+.img11{
+    width: 300px;
+    height: 200px;
+    border-radius: .3125rem;
+}
+.img12{
+    width: 300px;
+    height: 200px;
+    border-radius: .3125rem;
+}
+.img13{
+    width: 300px;
+    height: 200px;
+    border-radius: .3125rem;
+}
+.img14{
+    width: 300px;
+    height: 200px;
+    border-radius: .3125rem;
+}
+.img15{
+    width: 300px;
+    height: 200px;
+    border-radius: .3125rem;
+}
+.sectionTips{
+    background-color: rgba(255, 228, 196, 0.685);
+    padding-left: 1.25rem;
+    text-shadow: .3125rem .5rem .75rem black;
+}
+.imgNorma{
+    width: 18.75rem;
+    height: 12.5rem;
+    margin: .625rem;
+    border-radius: .625rem;
+    box-shadow: .3125rem .5rem .75rem black;
+}
+.imgCircu{
+    width: 18.75rem;
+    height: 12.5rem;
+    margin: .625rem;
+    border-radius: .625rem;
+    box-shadow: .3125rem .5rem .75rem black;
+}
+.fondoCuatro{
+    background-color: rgba(221, 187, 145, 0.74);
+    background-image: url("../assets/img/glaciarfond.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.h1Pagos{
+    background-color: rgba(223, 161, 86, 0.475);
+    font-size: 2.8125rem;
+    padding-left: .625rem;
+    text-shadow: .3125rem .5rem .75rem rgba(0, 0, 0, 0.651);
+}
+.h2Pagos{
+    font-size: 1.5625rem;
+    padding-left: 1.25rem;
+    text-shadow: .3125rem .5rem .75rem rgba(0, 0, 0, 0.651);
+    margin: .625rem;
+}
+.sectionPagos{
+    margin-top: 3.125rem;
+    background-color: rgba(240, 254, 255, 0.263);
+    padding: .625rem;
+}
+.sectionPagos1{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3,30%);
+    justify-content: center;
+    margin: auto;
+}
+.h3Pagoss1{
+    text-shadow: .3125rem .5rem .75rem black;
+}
+.img16{ 
+    width: 15.625rem;
+    height: 15.625rem;
+    margin: .625rem;
+    border-radius: .3125rem;
+    box-shadow: .3125rem .5rem .75rem black;
+}
+.img17{ 
+    width: 15.625rem;
+    height: 15.625rem;
+    margin: .625rem;
+    border-radius: .3125rem;
+    box-shadow: .3125rem .5rem .75rem black;
+}
+.img18{ 
+    width: 15.625rem;
+    height: 15.625rem;
+    margin: .625rem;
+    border-radius: .3125rem;
+    box-shadow: .3125rem .5rem .75rem black;
+}
+.sectionPagos2{ 
+    display: grid;
+    margin-top: 3.125rem;
+    background-color: rgba(240, 254, 255, 0.263);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2,30%);
+}
+.h3Pagoss2{
+    margin-top: 3.125rem;
+    background-color: rgba(240, 254, 255, 0.263);
+    justify-content: center;
+    text-shadow: .3125rem .5rem .75rem black;
+}
+.img19{ 
+    width: 15.625rem;
+    height: 15.625rem;
+    margin: .625rem;
+    border-radius: .625rem;
+    box-shadow: .3125rem .5rem .75rem black;
+}
+.img20{ 
+    width: 15.625rem;
+    height: 15.625rem;
+    margin: .625rem;
+    border-radius: .625rem;
+    box-shadow: .3125rem .5rem .75rem black;
+}
+.ulPagos{margin-top:3.125rem;
+    background-color: rgba(240, 254, 255, 0.263);
+}
+.footPagos{
+    display:grid;
+    grid-template-columns: repeat(3 ,10%);
+    justify-content: center;
+    align-content: end;
+    list-style: none;
+} 
+.footerP{
+    width: 2.5rem;
+    height: 2.5rem;
+    gap: 2.5rem;
+    border-radius: 50%;
+    box-shadow: .3125rem .5rem .75rem black;
+}
+.fondoCinco{ 
+    background-color: rgba(223, 161, 86, 0.475);
+    background-image: url("../assets/img/ballenas.webp");
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.h1Contacto{
+    background-color: rgba(223, 161, 86, 0.475);
+    font-size: 2.8125rem;
+    padding-left: .625rem;
+    text-shadow: .3125rem .5rem .75rem rgba(0, 0, 0, 0.651);
+}
+.h2Margin{
+    margin: .625rem;
+    background-color: rgba(240, 254, 255, 0.589);
+    text-shadow: .3125rem .5rem .75rem rgba(0, 0, 0, 0.651);
+}
+.sectionContacto{ 
+    background-color: rgba(240, 254, 255, 0.589);
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;   
+}
+.contactoImg{
+    background-color: rgba(240, 254, 255, 0.361);
+    display: flex;
+    justify-content:left;
+    flex-wrap: wrap;
+}
+.contactosImg { 
+    gap: 3.125rem;
+    margin: 1.5625rem;
+    font-size: 1.25rem;
+    list-style: none;
+    text-shadow: .3125rem .5rem .75rem rgba(0, 0, 0, 0.651);
+}
+.fieldContacto{
+    margin: 1.25rem;
+}
+.footContacto{
+    background-color: rgba(240, 254, 255, 0.589);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1.25rem;
+}
+.ifClass{
+    border-radius: .3125rem;
+    box-shadow: .3125rem .5rem .75rem black;
+}
+.h3Nos{
+    padding: 1.25rem;
+    text-shadow: .3125rem .5rem .75rem rgba(0, 0, 0, 0.651);
+}
+@media(max-width:767px){
+    .sectionPagos1{
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+    }
+    .sectionPagos2{
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+    }
+    .img16{ 
+        width: 10rem;
+        height: 10rem;
+        margin: .3125rem;
+        gap: .625rem;
+        border-radius: .3125rem;
+        box-shadow: .3125rem .5rem .75rem black;
+    }
+    .img17{ 
+        width: 10rem;
+        height: 10rem;
+        margin: .3125rem;
+        gap: .625rem;
+        border-radius: .3125rem;
+        box-shadow: .3125rem .5rem .75rem black;
+    }
+    .img18{ 
+        width: 10rem;
+        height: 10rem;
+        margin: .3125rem;
+        gap: .625rem;
+        border-radius: .3125rem;
+        box-shadow: .3125rem .5rem .75rem black;
+    }
+    .img19{
+        width: 10rem;
+        height: 10rem;
+        margin: .3125rem;
+        gap: .625rem;
+        border-radius: .625rem;
+        box-shadow: .3125rem .5rem .75rem black;
+    }
+    .img20{
+        width: 10rem;
+        height: 10rem;
+        gap: .625rem;
+        margin: .3125rem;
+        border-radius: .625rem;
+        box-shadow: .3125rem .5rem .75rem black;
+    }
+    .footPagos{
+        grid-template-columns: repeat(3 ,15%);
+    }
+    .contactosImg p{
+        font-size: .9375rem;
+    }
+}
+@media(max-width:1024px){
+    .img16{ 
+        width: 12rem;
+        height: 12rem;
+        margin: .625rem;
+        border-radius: .3125rem;
+        box-shadow: .3125rem .5rem .75rem black;
+    }
+    .img17{ 
+        width: 12rem;
+        height: 12rem;
+        margin: .625rem;
+        border-radius: .3125rem;
+        box-shadow: .3125rem .5rem .75rem black;
+    }
+    .img18{ 
+        width: 12rem;
+        height: 12rem;
+        margin: .625rem;
+        border-radius: .3125rem;
+        box-shadow: .3125rem .5rem .75rem black;
+    }
+    .img19{ 
+        width: 12rem;
+        height: 12rem;
+        margin: .625rem;
+        border-radius: .3125rem;
+        box-shadow: .3125rem .5rem .75rem black;
+    }
+    .img20{ 
+        width: 12rem;
+        height: 12rem;
+        margin: .625rem;
+        border-radius: .3125rem;
+        box-shadow: .3125rem .5rem .75rem black;
+    }
+}

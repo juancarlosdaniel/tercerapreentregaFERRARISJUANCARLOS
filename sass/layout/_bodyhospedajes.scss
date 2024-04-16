@@ -1,0 +1,42 @@
+.fondoTres {
+    background-color: rgba(203, 188, 168, 0.888);
+    background-image: url("../assets/img/iberá.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.h1Hospedajes {
+    background-color: map-get($colores, fondoSecundario);
+    font-size: 2.8125rem;
+    padding-left: .625rem;
+    text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.562);
+}
+.h2Hosp {
+    text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.562);
+}
+.pHosp {
+    text-shadow: .3125rem .5rem .75rem black;
+    margin: .625rem;
+}
+.sectionArtimg {
+    background-color: map-get($colores, fondoTerciario);
+    padding-left: 1.25rem;
+}
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12,.img13,.img14,.img15 {
+    width: 300px;
+    height: 200px;
+    border-radius: .3125rem;
+}
+.sectionTips {
+    background-color: rgba(255, 228, 196, 0.685);
+    padding-left: 1.25rem;
+    text-shadow: .3125rem .5rem .75rem black;
+}
+.imgNorma,.imgCircu {
+    width: 18.75rem;
+    height: 12.5rem;
+    margin: .625rem;
+    border-radius: .625rem;
+    box-shadow: .3125rem .5rem .75rem black;
+}

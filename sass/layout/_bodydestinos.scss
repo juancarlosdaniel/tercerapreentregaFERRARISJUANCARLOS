@@ -1,0 +1,84 @@
+.fondoDos {
+    background-color: map-get($colores, fondoSecundario);
+    background-image: url("../assets/img/cataratas.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.mainClass {
+    background-color: map-get($colores, fondoTerciario);
+}
+.h1Destinos {
+    background-color:map-get($colores, fondoSecundario);
+    font-size: 2.8125rem;
+    padding-left: .625rem;
+    text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
+}
+.h2Destinos {
+    margin: .625rem;
+    padding-left: 1.25rem;
+    text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
+}
+.articlDest1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: .625rem;
+}
+.imgDestinos1 {
+    width: 17.5rem;
+    height: 12.5rem;
+    margin: .625rem;
+    border-radius: .625rem;
+    box-shadow: .3125rem .5rem .75rem black;
+}
+
+.misioDestinoh3 {
+    margin: 0.625rem;
+    padding-top: .625rem;
+    text-shadow: .3125rem .5rem .75rem black;
+}
+.pDestinos1 {
+    width: 31.25rem;
+    height: 12.5rem;
+    margin: .625rem;
+    padding-top: 1.875rem;
+    padding-bottom: .9375rem;
+    text-shadow: .3125rem .5rem .75rem black;
+}
+.articlDest2 {
+    @extend .articlDest1;
+}
+.imgDestinos2 {
+    @extend .imgDestinos1;
+}
+.esteroDestinoh3 {
+    @extend .misioDestinoh3;
+}
+.pDestinos2 {
+    @extend .pDestinos1;
+}
+.articlDest3 {
+    @extend .articlDest1;
+}
+.imgDestinos3 {
+    @extend .imgDestinos1;
+}
+.glaciarDestinoh3 {
+    @extend .misioDestinoh3;
+}
+.pDestinos3 {
+    @extend .pDestinos1;
+}
+.articlDest4 {
+    @extend .articlDest1;
+}
+.imgDestinos4 {
+    @extend .imgDestinos1;
+}
+.puertoDestinoh3 {
+    @extend .misioDestinoh3;
+}
+.pDestinos4 {
+    @extend .pDestinos1;
+}

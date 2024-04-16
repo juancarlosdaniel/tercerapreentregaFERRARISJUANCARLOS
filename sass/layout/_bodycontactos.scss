@@ -1,0 +1,60 @@
+.fondoCinco {
+    background-color: map-get($colores, fondoSecundario);
+    background-image: url("../assets/img/ballenas.webp");
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.h1Contacto {
+    background-color: map-get($colores, fondoSecundario);
+    font-size: 2.8125rem;
+    padding-left: .625rem;
+    text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
+}
+.h2Margin {
+    margin: .625rem;
+    background-color: map-get($colores, fondoQuinto);
+    text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
+}
+.sectionContacto {
+    @include flex(wrap,center);
+    background-color: map-get($colores, fondoQuinto);
+}
+.contactoImg {
+    @include flex(wrap,left);
+    background-color: map-get($colores, fondoQuinto);
+}
+.contactosImg {
+    gap: 3.125rem;
+    margin: 1.5625rem;
+    font-size: 1.25rem;
+    list-style: none;
+    text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
+    li{
+        .pepito{
+            box-shadow:.3125rem .5rem .75rem black;
+            border-radius: 20%;
+            gap: 3.125rem;
+            margin: 1.5625rem;
+        }
+    }
+}
+.fieldContacto {
+    margin: 1.25rem;
+}
+.footContacto {
+    background-color: map-get($colores, fondoQuinto);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1.25rem;
+}
+.ifClass {
+    border-radius: .3125rem;
+    box-shadow: .3125rem .5rem .75rem black;
+}
+.h3Nos {
+    padding: 1.25rem;
+    text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
+}

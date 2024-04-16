@@ -1,0 +1,22 @@
+@media(max-width:1024px){
+    .img16,.img17,.img18,.img19,.img20{ 
+        width: 12rem;
+        height: 12rem;
+        margin: .625rem;
+        border-radius: .3125rem;
+        box-shadow: .3125rem .5rem .75rem black;
+    }
+    .imgIndex1,.imgIndex2,.imgIndex3,.imgIndex4 {
+        width: 17.5rem;
+        height: 12.5rem;
+        margin: 4%;
+        border-radius: .625rem;
+        box-shadow: .3125rem .5rem .75rem black;
+        cursor: pointer;
+        transition: all 0.3ms ease-in-out;
+        &:hover {
+            transform: scale(1.1);
+            box-shadow: .3125rem .5rem .75rem black;
+        }
+    }
+}
