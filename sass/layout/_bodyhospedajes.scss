@@ -7,30 +7,55 @@
     background-repeat: no-repeat;
 }
 .h1Hospedajes {
-    background-color: map-get($colores, fondoSecundario);
+    color: black;
+    font-weight: bold;
+    font-size: 2.8125rem;
+    background-color: rgba(247, 245, 243, 0.598);
+    margin: 0;
     font-size: 2.8125rem;
     padding-left: .625rem;
     text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.562);
 }
 .h2Hosp {
+    color: black;
+    font-weight: bold;
     text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.562);
+    animation:rotar 3s linear;
+}
+@keyframes rotar{
+    from{
+        transform: rotateY(180deg);
+    }
+    to{
+        transform: rotateY(180deg);
+    }
 }
 .pHosp {
+    color: black;
+    font-weight: bold;
     text-shadow: .3125rem .5rem .75rem black;
     margin: .625rem;
 }
 .sectionArtimg {
     background-color: map-get($colores, fondoTerciario);
-    padding-left: 1.25rem;
+    padding-left: 8%;
 }
 .img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12,.img13,.img14,.img15 {
     width: 300px;
     height: 200px;
     border-radius: .3125rem;
+    cursor: pointer;
+    transition: all 0.3ms ease-in-out;
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: .3125rem .5rem .75rem black;
+    }
 }
 .sectionTips {
+    color: black;
+    font-weight: bold;
     background-color: rgba(255, 228, 196, 0.685);
-    padding-left: 1.25rem;
+    padding-left: 9%;
     text-shadow: .3125rem .5rem .75rem black;
 }
 .imgNorma,.imgCircu {
@@ -39,4 +64,10 @@
     margin: .625rem;
     border-radius: .625rem;
     box-shadow: .3125rem .5rem .75rem black;
+    cursor: pointer;
+    transition: all 0.3ms ease-in-out;
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: .3125rem .5rem .75rem black;
+    }
 }

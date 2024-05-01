@@ -8,43 +8,68 @@
 }
 .mainClass {
     background-color: map-get($colores, fondoTerciario);
+    color: black;
+    font-weight: bold;
 }
 .h1Destinos {
+    color: black;
+    font-weight: bold;
+    font-size: 2.8125rem;
     background-color:map-get($colores, fondoSecundario);
     font-size: 2.8125rem;
     padding-left: .625rem;
     text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
 }
 .h2Destinos {
-    margin: .625rem;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    margin: 0;
     padding-left: 1.25rem;
     text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
+    animation: rotar 3s linear;
+}
+@keyframes rotar{
+    from{
+        transform: rotateY(180deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
 }
 .articlDest1 {
     display: flex;
     flex-wrap: wrap;
     margin: .625rem;
+    padding-left: 8%;
 }
 .imgDestinos1 {
-    width: 17.5rem;
-    height: 12.5rem;
+    width: 25rem;
+    height: 17.5rem;
     margin: .625rem;
     border-radius: .625rem;
     box-shadow: .3125rem .5rem .75rem black;
+    cursor: pointer;
+    transition: all 0.3ms ease-in-out;
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: .3125rem .5rem .75rem black;
+    }
 }
-
 .misioDestinoh3 {
-    margin: 0.625rem;
-    padding-top: .625rem;
+    margin: 2.625rem;
     text-shadow: .3125rem .5rem .75rem black;
 }
 .pDestinos1 {
-    width: 31.25rem;
+    width: 26.25rem;
     height: 12.5rem;
     margin: .625rem;
     padding-top: 1.875rem;
     padding-bottom: .9375rem;
     text-shadow: .3125rem .5rem .75rem black;
+}
+.footerDest{
+    background-color: map-get($colores, fondoTerciario);
 }
 .articlDest2 {
     @extend .articlDest1;

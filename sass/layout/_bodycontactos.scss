@@ -7,15 +7,24 @@
     background-attachment: fixed;
 }
 .h1Contacto {
-    background-color: map-get($colores, fondoSecundario);
+    color: black;
+    font-weight: bold;
     font-size: 2.8125rem;
-    padding-left: .625rem;
+    padding-left: 5%;
     text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
+    margin: 0;
+}
+.sectionAnime{
+    background-color: map-get($colores, fondoQuinto);
 }
 .h2Margin {
-    margin: .625rem;
-    background-color: map-get($colores, fondoQuinto);
+    color: black;
+    font-weight: bold;
+    padding-top: 1.25rem;
+    padding-left: 1.25rem;
+    margin: 0;
     text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
+    animation: rotar 3s linear;
 }
 .sectionContacto {
     @include flex(wrap,center);
@@ -25,10 +34,18 @@
     @include flex(wrap,left);
     background-color: map-get($colores, fondoQuinto);
 }
+.mailClass{
+    margin-top: 1.875rem;
+}
 .contactosImg {
+    h3{
+        color: black;
+        font-weight: bold;
+        text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
+    }
     gap: 3.125rem;
-    margin: 1.5625rem;
-    font-size: 1.25rem;
+    margin: 0 10%;
+    font-size: .9375rem;
     list-style: none;
     text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
     li{
@@ -42,6 +59,7 @@
 }
 .fieldContacto {
     margin: 1.25rem;
+    text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
 }
 .footContacto {
     background-color: map-get($colores, fondoQuinto);
@@ -55,6 +73,8 @@
     box-shadow: .3125rem .5rem .75rem black;
 }
 .h3Nos {
+    color: black;
+    font-weight: bold;
     padding: 1.25rem;
     text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
 }

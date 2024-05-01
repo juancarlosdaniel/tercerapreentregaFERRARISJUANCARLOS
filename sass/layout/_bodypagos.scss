@@ -7,21 +7,38 @@
     background-attachment: fixed;
 }
 .h1Pagos {
-    background-color: map-get($colores, fondoSecundario);
+    margin: 0;
+    color: black;
+    font-weight: bold;
     font-size: 2.8125rem;
+    background-color: rgba(223, 161, 86, 0);
     padding-left: .625rem;
     text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
 }
 .h2Pagos {
-    font-size: 1.5625rem;
+    color: black;
+    font-weight: bold;
+    font-size: 1.875rem;
     padding-left: 1.25rem;
     text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
     margin: .625rem;
+    animation: rotar 3s linear;
+}
+@keyframes rotar{
+    from{
+        transform: rotateY(180deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
 }
 .sectionPagos {
-    margin-top: 3.125rem;
+    margin-top: 0;
     background-color: map-get($colores, fondoCuaternario);
     padding: .625rem;
+}
+.sectPag{
+    background-color: map-get($colores, fondoCuaternario);
 }
 .sectionPagos1 {
     display: grid;
@@ -32,6 +49,9 @@
     margin: auto;
 }
 .h3Pagoss1 {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5625rem;
     text-shadow: .3125rem .5rem .75rem black;
 }
 .img16,.img17,.img18 {
@@ -51,7 +71,10 @@
     grid-template-columns: repeat(2, 30%);
 }
 .h3Pagoss2 {
+    color: black;
+    font-weight: bold;
     margin-top: 3.125rem;
+    font-size: 1.5625rem;
     background-color: map-get($colores, fondoCuaternario);
     justify-content: center;
     text-shadow: .3125rem .5rem .75rem black;

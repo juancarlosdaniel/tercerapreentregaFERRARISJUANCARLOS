@@ -4,25 +4,23 @@
   padding: 0%;
   box-sizing: border-box; }
 
-.headerClass {
-  background-color: rgba(223, 161, 86, 0.475);
-  gap: .3125rem;
-  display: flex;
-  justify-content: right;
-  flex-wrap: wrap;
-  list-style: none; }
-  .headerClass li a {
-    color: black;
-    text-decoration: none;
-    padding: 0.3125rem 0.625rem;
-    border: 0.125rem solid black;
-    border-radius: .3125rem;
-    list-style: none;
-    margin: 0.625rem;
-    display: block; }
-    .headerClass li a:hover {
-      color: rgba(255, 0, 0, 0.63);
-      text-decoration: underline; }
+.direccion {
+  color: white;
+  text-align: center;
+  font-size: 0.75rem;
+  font-style: italic; }
+
+.derechos {
+  color: white;
+  text-align: center;
+  font-size: 0.75rem;
+  font-style: italic; }
+
+.desarrollador {
+  color: red;
+  margin-left: .625rem;
+  font-size: 0.75rem;
+  font-style: italic; }
 
 body {
   font-family: "Istok Web", sans-serif;
@@ -37,19 +35,29 @@ body {
   background-attachment: fixed; }
 
 .h1Class {
+  background-color: rgba(223, 161, 86, 0.475);
+  color: black;
+  font-weight: bold;
   font-size: 2.8125rem;
   display: flex;
   justify-content: center;
+  margin: 0;
   padding-left: .625rem;
   text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.564); }
 
 .h2Class {
+  background-color: rgba(223, 161, 86, 0.475);
+  color: black;
+  font-weight: bold;
   display: flex;
   justify-content: center;
+  margin: 0;
   padding-left: .625rem;
   text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.612); }
 
 .h3Inicio {
+  color: black;
+  font-weight: bold;
   margin-left: .625rem;
   text-shadow: .3125rem .5rem .75rem black; }
 
@@ -68,18 +76,6 @@ body {
   background-color: rgba(223, 161, 86, 0.505);
   gap: 2.5rem; }
 
-.imgIndex1, .imgIndex2, .imgIndex3, .imgIndex4 {
-  width: 17.5rem;
-  height: 12.5rem;
-  margin: 1%;
-  border-radius: .625rem;
-  box-shadow: .3125rem .5rem .75rem black;
-  cursor: pointer;
-  transition: all 0.3ms ease-in-out; }
-  .imgIndex1:hover, .imgIndex2:hover, .imgIndex3:hover, .imgIndex4:hover {
-    transform: scale(1.1);
-    box-shadow: .3125rem .5rem .75rem black; }
-
 .footerImg {
   gap: 2.5rem;
   display: flex;
@@ -88,11 +84,6 @@ body {
   margin: 1.5625rem;
   box-shadow: .3125rem .5rem .75rem black;
   list-style: none; }
-
-h6 {
-  font: unset;
-  color: red;
-  margin-left: .625rem; }
 
 .fondoDos {
   background-color: rgba(223, 161, 86, 0.475);
@@ -103,43 +94,66 @@ h6 {
   background-attachment: fixed; }
 
 .mainClass {
-  background-color: rgba(247, 245, 243, 0.598); }
+  background-color: rgba(247, 245, 243, 0.598);
+  color: black;
+  font-weight: bold; }
 
 .h1Destinos {
+  color: black;
+  font-weight: bold;
+  font-size: 2.8125rem;
   background-color: rgba(223, 161, 86, 0.475);
   font-size: 2.8125rem;
   padding-left: .625rem;
   text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651); }
 
 .h2Destinos {
-  margin: .625rem;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  margin: 0;
   padding-left: 1.25rem;
-  text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651); }
+  text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
+  animation: rotar 3s linear; }
+
+@keyframes rotar {
+  from {
+    transform: rotateY(180deg); }
+  to {
+    transform: rotateY(360deg); } }
 
 .articlDest1, .articlDest2, .articlDest3, .articlDest4 {
   display: flex;
   flex-wrap: wrap;
-  margin: .625rem; }
+  margin: .625rem;
+  padding-left: 8%; }
 
 .imgDestinos1, .imgDestinos2, .imgDestinos3, .imgDestinos4 {
-  width: 17.5rem;
-  height: 12.5rem;
+  width: 25rem;
+  height: 17.5rem;
   margin: .625rem;
   border-radius: .625rem;
-  box-shadow: .3125rem .5rem .75rem black; }
+  box-shadow: .3125rem .5rem .75rem black;
+  cursor: pointer;
+  transition: all 0.3ms ease-in-out; }
+  .imgDestinos1:hover, .imgDestinos2:hover, .imgDestinos3:hover, .imgDestinos4:hover {
+    transform: scale(1.1);
+    box-shadow: .3125rem .5rem .75rem black; }
 
 .misioDestinoh3, .esteroDestinoh3, .glaciarDestinoh3, .puertoDestinoh3 {
-  margin: 0.625rem;
-  padding-top: .625rem;
+  margin: 2.625rem;
   text-shadow: .3125rem .5rem .75rem black; }
 
 .pDestinos1, .pDestinos2, .pDestinos3, .pDestinos4 {
-  width: 31.25rem;
+  width: 26.25rem;
   height: 12.5rem;
   margin: .625rem;
   padding-top: 1.875rem;
   padding-bottom: .9375rem;
   text-shadow: .3125rem .5rem .75rem black; }
+
+.footerDest {
+  background-color: rgba(247, 245, 243, 0.598); }
 
 .fondoTres {
   background-color: rgba(203, 188, 168, 0.888);
@@ -150,30 +164,52 @@ h6 {
   background-repeat: no-repeat; }
 
 .h1Hospedajes {
-  background-color: rgba(223, 161, 86, 0.475);
+  color: black;
+  font-weight: bold;
+  font-size: 2.8125rem;
+  background-color: rgba(247, 245, 243, 0.598);
+  margin: 0;
   font-size: 2.8125rem;
   padding-left: .625rem;
   text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.562); }
 
 .h2Hosp {
-  text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.562); }
+  color: black;
+  font-weight: bold;
+  text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.562);
+  animation: rotar 3s linear; }
+
+@keyframes rotar {
+  from {
+    transform: rotateY(180deg); }
+  to {
+    transform: rotateY(180deg); } }
 
 .pHosp {
+  color: black;
+  font-weight: bold;
   text-shadow: .3125rem .5rem .75rem black;
   margin: .625rem; }
 
 .sectionArtimg {
   background-color: rgba(247, 245, 243, 0.598);
-  padding-left: 1.25rem; }
+  padding-left: 8%; }
 
 .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14, .img15 {
   width: 300px;
   height: 200px;
-  border-radius: .3125rem; }
+  border-radius: .3125rem;
+  cursor: pointer;
+  transition: all 0.3ms ease-in-out; }
+  .img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover, .img7:hover, .img8:hover, .img9:hover, .img10:hover, .img11:hover, .img12:hover, .img13:hover, .img14:hover, .img15:hover {
+    transform: scale(1.1);
+    box-shadow: .3125rem .5rem .75rem black; }
 
 .sectionTips {
+  color: black;
+  font-weight: bold;
   background-color: rgba(255, 228, 196, 0.685);
-  padding-left: 1.25rem;
+  padding-left: 9%;
   text-shadow: .3125rem .5rem .75rem black; }
 
 .imgNorma, .imgCircu {
@@ -181,7 +217,12 @@ h6 {
   height: 12.5rem;
   margin: .625rem;
   border-radius: .625rem;
-  box-shadow: .3125rem .5rem .75rem black; }
+  box-shadow: .3125rem .5rem .75rem black;
+  cursor: pointer;
+  transition: all 0.3ms ease-in-out; }
+  .imgNorma:hover, .imgCircu:hover {
+    transform: scale(1.1);
+    box-shadow: .3125rem .5rem .75rem black; }
 
 .fondoCuatro {
   background-color: rgba(221, 187, 145, 0.74);
@@ -192,21 +233,36 @@ h6 {
   background-attachment: fixed; }
 
 .h1Pagos {
-  background-color: rgba(223, 161, 86, 0.475);
+  margin: 0;
+  color: black;
+  font-weight: bold;
   font-size: 2.8125rem;
+  background-color: rgba(223, 161, 86, 0);
   padding-left: .625rem;
   text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651); }
 
 .h2Pagos {
-  font-size: 1.5625rem;
+  color: black;
+  font-weight: bold;
+  font-size: 1.875rem;
   padding-left: 1.25rem;
   text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
-  margin: .625rem; }
+  margin: .625rem;
+  animation: rotar 3s linear; }
+
+@keyframes rotar {
+  from {
+    transform: rotateY(180deg); }
+  to {
+    transform: rotateY(360deg); } }
 
 .sectionPagos {
-  margin-top: 3.125rem;
+  margin-top: 0;
   background-color: rgba(240, 254, 255, 0.263);
   padding: .625rem; }
+
+.sectPag {
+  background-color: rgba(240, 254, 255, 0.263); }
 
 .sectionPagos1 {
   display: grid;
@@ -217,6 +273,9 @@ h6 {
   margin: auto; }
 
 .h3Pagoss1 {
+  color: black;
+  font-weight: bold;
+  font-size: 1.5625rem;
   text-shadow: .3125rem .5rem .75rem black; }
 
 .img16, .img17, .img18 {
@@ -236,7 +295,10 @@ h6 {
   grid-template-columns: repeat(2, 30%); }
 
 .h3Pagoss2 {
+  color: black;
+  font-weight: bold;
   margin-top: 3.125rem;
+  font-size: 1.5625rem;
   background-color: rgba(240, 254, 255, 0.263);
   justify-content: center;
   text-shadow: .3125rem .5rem .75rem black; }
@@ -275,15 +337,24 @@ h6 {
   background-attachment: fixed; }
 
 .h1Contacto {
-  background-color: rgba(223, 161, 86, 0.475);
+  color: black;
+  font-weight: bold;
   font-size: 2.8125rem;
-  padding-left: .625rem;
-  text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651); }
+  padding-left: 5%;
+  text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
+  margin: 0; }
+
+.sectionAnime {
+  background-color: rgba(240, 254, 255, 0.589); }
 
 .h2Margin {
-  margin: .625rem;
-  background-color: rgba(240, 254, 255, 0.589);
-  text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651); }
+  color: black;
+  font-weight: bold;
+  padding-top: 1.25rem;
+  padding-left: 1.25rem;
+  margin: 0;
+  text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
+  animation: rotar 3s linear; }
 
 .sectionContacto {
   display: flex;
@@ -297,12 +368,19 @@ h6 {
   justify-content: left;
   background-color: rgba(240, 254, 255, 0.589); }
 
+.mailClass {
+  margin-top: 1.875rem; }
+
 .contactosImg {
   gap: 3.125rem;
-  margin: 1.5625rem;
-  font-size: 1.25rem;
+  margin: 0 10%;
+  font-size: .9375rem;
   list-style: none;
   text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651); }
+  .contactosImg h3 {
+    color: black;
+    font-weight: bold;
+    text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651); }
   .contactosImg li .pepito {
     box-shadow: .3125rem .5rem .75rem black;
     border-radius: 20%;
@@ -310,7 +388,8 @@ h6 {
     margin: 1.5625rem; }
 
 .fieldContacto {
-  margin: 1.25rem; }
+  margin: 1.25rem;
+  text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651); }
 
 .footContacto {
   background-color: rgba(240, 254, 255, 0.589);
@@ -324,54 +403,213 @@ h6 {
   box-shadow: .3125rem .5rem .75rem black; }
 
 .h3Nos {
+  color: black;
+  font-weight: bold;
   padding: 1.25rem;
   text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651); }
 
 @media (max-width: 1024px) {
+  .articlDest1, .articlDest2, .articlDest3, .articlDest4, .articlDest2, .articlDest3, .articlDest4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: .625rem;
+    padding-left: 0%; }
+  .misioDestinoh3, .esteroDestinoh3, .glaciarDestinoh3, .puertoDestinoh3, .esteroDestinoh3, .glaciarDestinoh3, .puertoDestinoh3 {
+    margin: 0.625rem;
+    text-shadow: 0.3125rem 0.5rem 0.75rem black; }
+  .pDestinos1, .pDestinos2, .pDestinos3, .pDestinos4, .pDestinos2, .pDestinos3, .pDestinos4 {
+    width: 20.25rem;
+    height: 12.5rem;
+    margin: .625rem;
+    padding-top: 1.875rem;
+    padding-bottom: .9375rem;
+    text-shadow: 0.3125rem 0.5rem 0.75rem black; }
+  .sectionArtimg {
+    background-color: rgba(247, 245, 243, 0.598);
+    padding-left: 10%; }
+  .sectionTips {
+    background-color: rgba(255, 228, 196, 0.685);
+    padding-left: 8%;
+    text-shadow: 0.3125rem 0.5rem 0.75rem black; }
   .img16, .img17, .img18, .img19, .img20 {
     width: 12rem;
     height: 12rem;
     margin: .625rem;
     border-radius: .3125rem;
     box-shadow: .3125rem .5rem .75rem black; }
-  .imgIndex1, .imgIndex2, .imgIndex3, .imgIndex4, .imgIndex2, .imgIndex3, .imgIndex4 {
+  #carouselExampleCaptions .carousel-inner .carousel-item img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center; } }
+
+@media (max-width: 768px) {
+  .articlDest1, .articlDest2, .articlDest3, .articlDest4, .articlDest2, .articlDest3, .articlDest4, .articlDest2, .articlDest3, .articlDest4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: .625rem;
+    padding-left: 8%; }
+  .imgDestinos1, .imgDestinos2, .imgDestinos3, .imgDestinos4, .imgDestinos2, .imgDestinos3, .imgDestinos4 {
     width: 17.5rem;
     height: 12.5rem;
-    margin: 4%;
+    margin: .625rem;
     border-radius: .625rem;
-    box-shadow: .3125rem .5rem .75rem black;
-    cursor: pointer;
-    transition: all 0.3ms ease-in-out; }
-    .imgIndex1:hover, .imgIndex2:hover, .imgIndex3:hover, .imgIndex4:hover, .imgIndex2:hover, .imgIndex3:hover, .imgIndex4:hover {
-      transform: scale(1.1);
-      box-shadow: .3125rem .5rem .75rem black; } }
-
-@media (max-width: 767px) {
+    box-shadow: .3125rem .5rem .75rem black; }
+  .pDestinos1, .pDestinos2, .pDestinos3, .pDestinos4, .pDestinos2, .pDestinos3, .pDestinos4 {
+    width: 31.25rem;
+    height: 13.5rem;
+    margin: 0.625rem;
+    padding-top: 0.125rem;
+    padding-bottom: .9375rem;
+    text-shadow: .3125rem .5rem .75rem black; }
+  .sectionTips {
+    background-color: rgba(255, 228, 196, 0.685);
+    padding-left: 8%;
+    text-shadow: 0.3125rem 0.5rem 0.75rem black; }
   .sectionPagos1 {
     grid-template-columns: 1fr;
     grid-auto-rows: auto; }
   .sectionPagos2 {
     grid-template-columns: 1fr;
     grid-auto-rows: auto; }
+  .footerImg {
+    gap: 0.5rem;
+    margin: 1.01rem;
+    padding: 0; }
+  .h3Pagoss1 {
+    color: black;
+    font-weight: bold;
+    font-size: 1.4625rem;
+    text-shadow: 0.3125rem 0.5rem 0.75rem black; }
+  .h3Pagoss2 {
+    color: black;
+    font-weight: bold;
+    font-size: 1.3625rem;
+    text-shadow: 0.3125rem 0.5rem 0.75rem black; }
   .img16, .img17, .img18, .img19, .img20 {
-    width: 15rem;
-    height: 15rem;
+    width: 14rem;
+    height: 13rem;
     gap: .625rem;
     margin: .3125rem;
     border-radius: .625rem;
     box-shadow: .3125rem .5rem .75rem black; }
   .footPagos {
     grid-template-columns: repeat(3, 15%); }
-  .contactosImg p {
-    font-size: .9375rem; }
-  .imgIndex1, .imgIndex2, .imgIndex3, .imgIndex4, .imgIndex2, .imgIndex3, .imgIndex4 {
+  .contactosImg h3 {
+    font-size: .9375rem;
+    color: black;
+    font-weight: bold; }
+  .carousel-caption p {
+    font-size: 0.8rem; }
+  #carouselExampleCaptions .carousel-inner .carousel-item img {
+    max-width: 100%;
+    height: 18.75rem;
+    object-fit: cover;
+    object-position: center center; }
+  .slide {
+    margin: 0; }
+    .slide img {
+      width: 100%;
+      height: 100%;
+      border-radius: 1%; }
+  .d-md-block p {
+    margin-bottom: 9rem; }
+  .d-md-block h5 {
+    margin: 0;
+    font-weight: 700;
+    line-height: 1;
+    font-size: large;
+    font-weight: bold; } }
+
+@media (max-width: 375px) {
+  .articlDest1, .articlDest2, .articlDest3, .articlDest4, .articlDest2, .articlDest3, .articlDest4, .articlDest2, .articlDest3, .articlDest4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: .625rem;
+    padding-left: 0%; }
+  .imgDestinos1, .imgDestinos2, .imgDestinos3, .imgDestinos4, .imgDestinos2, .imgDestinos3, .imgDestinos4 {
     width: 17.5rem;
     height: 12.5rem;
-    margin: 12%;
+    margin-bottom: .6875rem;
     border-radius: .625rem;
-    box-shadow: .3125rem .5rem .75rem black;
+    box-shadow: .3125rem .5rem .75rem black; }
+  .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14, .img15 {
+    width: 16.5rem;
+    height: 12.5rem;
+    border-radius: .3125rem;
     cursor: pointer;
     transition: all 0.3ms ease-in-out; }
-    .imgIndex1:hover, .imgIndex2:hover, .imgIndex3:hover, .imgIndex4:hover, .imgIndex2:hover, .imgIndex3:hover, .imgIndex4:hover {
+    .img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover, .img7:hover, .img8:hover, .img9:hover, .img10:hover, .img11:hover, .img12:hover, .img13:hover, .img14:hover, .img15:hover {
       transform: scale(1.1);
-      box-shadow: .3125rem .5rem .75rem black; } }
+      box-shadow: .3125rem .5rem .75rem black; }
+  .footerImg {
+    gap: 0.5rem;
+    margin: 1.01rem;
+    padding: 0; }
+  .h1Class, .h1Destinos, .h1Hospedajes, .h1Pagos, .h1Contacto {
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    font-size: 2.5125rem;
+    background-color: rgba(223, 161, 86, 0);
+    padding-left: .625rem;
+    text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651); }
+  .imgNorma, .imgCircu {
+    width: 15.75rem;
+    height: 12.5rem;
+    margin: 0.625rem;
+    border-radius: .625rem;
+    box-shadow: 0.3125rem 0.5rem 0.75rem black;
+    cursor: pointer;
+    transition: all 0.3ms ease-in-out; }
+    .imgNorma:hover, .imgCircu:hover {
+      transform: scale(1.1);
+      box-shadow: .3125rem .5rem .75rem black; }
+  .contactosImg {
+    margin: -0.5375rem;
+    font-size: .9375rem;
+    list-style: none;
+    text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651); }
+  h3 {
+    padding: 0;
+    font-size: .9rem;
+    color: black;
+    font-weight: bold; } }
+
+.slide {
+  margin: 1.875rem; }
+  .slide img {
+    width: 100%;
+    height: 31.25rem;
+    border-radius: 1%; }
+
+.d-md-block p {
+  margin-bottom: 9rem; }
+
+.d-md-block h5 {
+  margin: 0;
+  font-weight: 700;
+  line-height: 2;
+  font-size: large;
+  font-weight: bold; }
+
+.headerclass {
+  background-color: rgba(223, 161, 86, 0.475);
+  padding: orange;
+  gap: .3125rem;
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+  list-style: none; }
+  .headerclass .navbar-nav li a {
+    color: black;
+    text-decoration: none;
+    padding: 0.3125rem 0.625rem;
+    border: 0.125rem solid black;
+    border-radius: .3125rem;
+    list-style: none;
+    margin: 0.625rem;
+    display: block; }
+    .headerclass .navbar-nav li a:hover {
+      color: rgba(255, 0, 0, 0.63);
+      text-decoration: underline; }

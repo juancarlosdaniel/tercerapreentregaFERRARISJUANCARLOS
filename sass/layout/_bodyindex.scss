@@ -5,70 +5,48 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 .h1Class {
+    background-color: map-get($colores, fondoSecundario);
+    color: black;
+    font-weight: bold;
     font-size: 2.8125rem;
     display: flex;
     justify-content: center;
+    margin: 0;
     padding-left: .625rem;
     text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.564);
 }
-
 .h2Class {
+    background-color: map-get($colores, fondoSecundario);
+    color: black;
+    font-weight: bold;
     display: flex;
     justify-content: center;
+    margin: 0;
     padding-left: .625rem;
     text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.612);
 }
-
 .h3Inicio {
+    color: black;
+    font-weight: bold;
     margin-left: .625rem;
     text-shadow: .3125rem .5rem .75rem black;
 }
-
 .contenedor {
     display: flex;
     justify-content: center;
 }
-
 .logote {
     opacity: 0.3;
     border-radius: 50%;
     margin: .9375rem;
     box-shadow: .3125rem .5rem .75rem black;
 }
-
 .h3Index {
     font-size: 1.5625rem;
     background-color: rgba(223, 161, 86, 0.505);
     gap: 2.5rem;
 }
-.imgIndex1 {
-    width: 17.5rem;
-    height: 12.5rem;
-    margin: 1%;
-    border-radius: .625rem;
-    box-shadow: .3125rem .5rem .75rem black;
-    cursor: pointer;
-    transition: all 0.3ms ease-in-out;
-    &:hover {
-        transform: scale(1.1);
-        box-shadow: .3125rem .5rem .75rem black;
-    }
-}
-
-.imgIndex2 {
-    @extend .imgIndex1;
-}
-
-.imgIndex3 {
-    @extend .imgIndex1;
-}
-
-.imgIndex4 {
-    @extend .imgIndex1;
-}
-
 .footerImg {
     gap: 2.5rem;
     display: flex;
@@ -77,8 +55,4 @@
     margin: 1.5625rem;
     box-shadow: .3125rem .5rem .75rem black;
     list-style: none;
-}
-h6 {
-    font: unset;color: red;
-    margin-left: .625rem;
 }

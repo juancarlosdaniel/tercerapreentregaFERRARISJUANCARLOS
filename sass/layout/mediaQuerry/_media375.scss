@@ -1,0 +1,66 @@
+@media (max-width: 375px){
+    .articlDest1, .articlDest2, .articlDest3, .articlDest4, .articlDest2, .articlDest3, .articlDest4 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: .625rem;
+        padding-left: 0%;
+    }
+    .imgDestinos1,.imgDestinos2, .imgDestinos3, .imgDestinos4{
+        width: 17.5rem;
+        height: 12.5rem;
+        margin-bottom: .6875rem;
+        border-radius: .625rem;
+        box-shadow: .3125rem .5rem .75rem black;
+    }
+    .img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12,.img13,.img14,.img15 {
+        width:16.5rem;
+        height: 12.5rem;
+        border-radius: .3125rem;
+        cursor: pointer;
+        transition: all 0.3ms ease-in-out;
+        &:hover {
+            transform: scale(1.1);
+            box-shadow: .3125rem .5rem .75rem black;
+        }
+    }
+    .footerImg {
+        gap: 0.5rem;
+        margin: 1.01rem;
+        padding: 0;
+    }
+    .h1Class,.h1Destinos,.h1Hospedajes,.h1Pagos,.h1Contacto {
+        margin: 0;
+        color: black;
+        font-weight: bold;
+        font-size: 2.5125rem;
+        background-color: rgba(223, 161, 86, 0);
+        padding-left: .625rem;
+        text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
+    }
+    .imgNorma, .imgCircu {
+        width: 15.75rem;
+        height: 12.5rem;
+        margin: 0.625rem;
+        border-radius: .625rem;
+        box-shadow: 0.3125rem 0.5rem 0.75rem black;
+        cursor: pointer;
+        transition: all 0.3ms ease-in-out;
+        &:hover {
+            transform: scale(1.1);
+            box-shadow: .3125rem .5rem .75rem black;
+        }
+    }
+    .contactosImg{
+        
+        margin: -0.5375rem;
+        font-size: .9375rem;
+        list-style: none;
+        text-shadow: 0.3125rem 0.5rem 0.75rem rgba(0, 0, 0, 0.651);
+    }
+        h3 {
+            padding: 0;
+            font-size: .9rem;
+            color: black;
+            font-weight: bold;
+        }
+}

@@ -1,4 +1,31 @@
 @media(max-width:1024px){
+    .articlDest1, .articlDest2, .articlDest3, .articlDest4 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: .625rem;
+        padding-left: 0%;
+    }
+    .misioDestinoh3, .esteroDestinoh3, .glaciarDestinoh3, .puertoDestinoh3 {
+        margin: 0.625rem;
+        text-shadow: 0.3125rem 0.5rem 0.75rem black;
+    }
+    .pDestinos1, .pDestinos2, .pDestinos3, .pDestinos4 {
+        width: 20.25rem;
+        height: 12.5rem;
+        margin: .625rem;
+        padding-top: 1.875rem;
+        padding-bottom: .9375rem;
+        text-shadow: 0.3125rem 0.5rem 0.75rem black;
+    }
+    .sectionArtimg {
+        background-color: rgba(247, 245, 243, 0.598);
+        padding-left: 10%;
+    }
+    .sectionTips {
+        background-color: rgba(255, 228, 196, 0.685);
+        padding-left: 8%;
+        text-shadow: 0.3125rem 0.5rem 0.75rem black;
+    }
     .img16,.img17,.img18,.img19,.img20{ 
         width: 12rem;
         height: 12rem;
@@ -6,17 +33,10 @@
         border-radius: .3125rem;
         box-shadow: .3125rem .5rem .75rem black;
     }
-    .imgIndex1,.imgIndex2,.imgIndex3,.imgIndex4 {
-        width: 17.5rem;
-        height: 12.5rem;
-        margin: 4%;
-        border-radius: .625rem;
-        box-shadow: .3125rem .5rem .75rem black;
-        cursor: pointer;
-        transition: all 0.3ms ease-in-out;
-        &:hover {
-            transform: scale(1.1);
-            box-shadow: .3125rem .5rem .75rem black;
-        }
+    #carouselExampleCaptions .carousel-inner .carousel-item img {
+        max-width: 100%;
+        height: 100%; ;
+        object-fit: cover;
+        object-position: center center;
     }
 }
