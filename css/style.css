@@ -126,7 +126,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: .625rem;
-  padding-left: 8%; }
+  padding-left: 5%; }
 
 .imgDestinos1, .imgDestinos2, .imgDestinos3, .imgDestinos4 {
   width: 25rem;
